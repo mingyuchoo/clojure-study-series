@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(java -version:*)",
+      "Bash(where lein:*)",
+      "Bash(cmd /c \"lein --version\")",
+      "Bash(cmd /c \"lein version\")",
+      "Bash(\"C:\\\\Users\\\\mingy\\\\.local\\\\bin\\\\lein.bat\" version)",
+      "Bash(\"C:\\\\Users\\\\mingy\\\\.local\\\\bin\\\\lein.bat\" deps)",
+      "Bash(curl:*)"
+    ]
+  }
+}
