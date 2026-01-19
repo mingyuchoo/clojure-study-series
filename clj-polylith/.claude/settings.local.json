@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(clojure -M:run:*)",
+      "Bash(bun *)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(lsof:*)"
+    ]
+  }
+}

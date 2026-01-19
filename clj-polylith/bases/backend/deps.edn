@@ -1,0 +1,2 @@
+{:paths ["src"]
+ :deps {poly/blog-backend {:local/root "../../components/blog/backend"}}}

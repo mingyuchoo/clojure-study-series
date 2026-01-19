@@ -1,0 +1,4 @@
+{:paths ["src"]
+ :deps {org.clojure/clojurescript {:mvn/version "1.11.132"}
+        poly/base-frontend {:local/root "../../bases/frontend"}
+        poly/blog-frontend {:local/root "../../components/blog/frontend"}}}

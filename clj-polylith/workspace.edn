@@ -1,0 +1,5 @@
+{:top-namespace "blog"
+ :interface-ns "interface"
+ :default-profile-name "default"
+ :projects {:backend {:alias "backend"}
+            :frontend {:alias "frontend"}}}

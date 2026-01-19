@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Polylith Blog</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f1e7;
+        --ink: #2b1c12;
+        --card: #fff8ed;
+        --accent: #d1492e;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Charter", "Georgia", serif;
+        background: radial-gradient(circle at top, #fff7e0 0%, var(--bg) 55%, #efe3d0 100%);
+        color: var(--ink);
+      }
+
+      .wrap {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 80px 24px 60px;
+      }
+
+      h1 {
+        font-size: 48px;
+        letter-spacing: -0.02em;
+        margin: 0 0 32px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 2px solid var(--ink);
+        border-radius: 18px;
+        padding: 24px 28px;
+        box-shadow: 6px 6px 0 rgba(43, 28, 18, 0.15);
+        margin-bottom: 24px;
+      }
+
+      .card h2 {
+        margin: 0 0 12px;
+        color: var(--accent);
+      }
+
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 36px;
+        }
+
+        .wrap {
+          padding-top: 56px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

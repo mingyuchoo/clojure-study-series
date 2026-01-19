@@ -1,0 +1,4 @@
+{:paths ["src"]
+ :deps {ring/ring-core {:mvn/version "1.12.1"}
+        org.clojure/data.json {:mvn/version "2.5.0"}
+        poly/blog-domain {:local/root "../domain"}}}

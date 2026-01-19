@@ -1,0 +1,8 @@
+{:source-paths ["src"
+                "../../bases/frontend/src"
+                "../../components/blog/frontend/src"]
+ :dev-http {3000 "public"}
+ :builds {:app {:target :browser
+                :output-dir "public/js"
+                :asset-path "/js"
+                :modules {:main {:init-fn blog.frontend.core/init}}}}}

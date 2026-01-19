@@ -1,0 +1,13 @@
+{
+  "name": "polylith-frontend",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "shadow-cljs": "2.28.10"
+  },
+  "scripts": {
+    "dev": "bunx shadow-cljs watch app",
+    "build": "bunx shadow-cljs release app",
+    "serve": "bun --hot ./public/index.html"
+  }
+}
